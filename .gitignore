@@ -1,0 +1,10 @@
+# Ignore Tableau cache and extract files
+*.hyper
+*.tde
+*.tds
+*.twbx
+
+# Ignore temporary files
+*.log
+.DS_Store
+*.tmp
