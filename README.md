@@ -9,13 +9,13 @@
 
 Welcome to my PowerBI dashboard repository. Here you will find PowerBI projects that showcase my expertise in Data cleaning, preprocessing, visualizing and business analytics using PowerBI.
 
-## Project 1: Health Care Analysis
+## 1: Health Care Analysis
 Analysing and visualize key healthcare expense metrics by hospital, payer, and diagnosis group.
 
-## Project 2: Credit Card Fraud Analysis
+## 2: Credit Card Fraud Analysis
 To clean, analyze and visulaize various credit card frauds accross US by city, gender, merchant in the year 2020.
 
-## Project 3: Motor Vehicle Collision Report
+## 3: Motor Vehicle Collision Report
 To clean, analyze and visualize key Motor Vehicle collision metrics by city, vehicle type, and role during 2017-2024.
 
 
