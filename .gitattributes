@@ -1,8 +1,4 @@
-# Explicitly tell GitHub to treat these file types as the correct languages
 *.py linguist-language=Python
 *.sql linguist-language=SQL
 *.ipynb linguist-language=JupyterNotebook
 *.pbix linguist-language=PowerShell
-
-# Don't let .pbix dominate the language stats (we'll downweight it)
-*.pbix linguist-detectable=false
