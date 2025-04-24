@@ -1,11 +1,8 @@
-# Ensure GitHub detects Python files
+# Explicitly tell GitHub to treat these file types as the correct languages
 *.py linguist-language=Python
-
-# Ensure GitHub detects SQL files
 *.sql linguist-language=SQL
-
-# Tag Power BI files so they’re not ignored (GitHub doesn’t officially recognize .pbix)
+*.ipynb linguist-language=JupyterNotebook
 *.pbix linguist-language=PowerShell
 
-# Optional: Include Jupyter if you use notebooks
-*.ipynb linguist-language=JupyterNotebook
+# Don't let .pbix dominate the language stats (we'll downweight it)
+*.pbix linguist-detectable=false
