@@ -1,4 +1,11 @@
+# Explicitly declare language for Python files
 *.py linguist-language=Python
+
+# Explicitly declare language for SQL files
 *.sql linguist-language=SQL
+
+# Explicitly declare language for Jupyter Notebooks
 *.ipynb linguist-language=JupyterNotebook
-*.pbix linguist-detectable=false
+
+# Allow Power BI files to show up as PowerShell (GitHub detects .pbix as PowerShell)
+*.pbix linguist-language=PowerShell
