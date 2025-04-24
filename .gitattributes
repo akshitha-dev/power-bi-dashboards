@@ -1,7 +1,5 @@
 *.py linguist-language=Python
-
 *.sql linguist-language=SQL
-
 *.ipynb linguist-language=JupyterNotebook
-
-*.pbix linguist-language=PowerShell
+*.dax linguist-language=DAX
+*.pbix linguist-detectable=false
