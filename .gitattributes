@@ -1,3 +1,7 @@
 *.py linguist-language=Python
+
 *.sql linguist-language=SQL
+
 *.ipynb linguist-language=JupyterNotebook
+
+*.pbix linguist-language=PowerShell
