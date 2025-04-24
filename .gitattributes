@@ -1,7 +1,4 @@
-# Properly classify languages
 *.py linguist-language=Python
 *.sql linguist-language=SQL
 *.ipynb linguist-language=JupyterNotebook
-
-# Avoid .pbix showing as PowerShell
 *.pbix linguist-detectable=false
